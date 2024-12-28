@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Types of Input Elements</title>
+</head>
+<body>
+
+    <h2>Form with All Types of Input Elements</h2>
+
+    <form action="/submit-form" method="POST">
+        <label for="text">Text Input:</label>
+        <input type="text" id="text" name="text" placeholder="Enter text">
+        <br><br>
+        <label for="password">Password Input:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <br><br>
+        <label for="email">Email Input:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email address">
+        <br><br>
+        <label for="number">Number Input:</label>
+        <input type="number" id="number" name="number" min="1" max="100" placeholder="Enter a number">
+        <br><br>
+        <label for="date">Date Input:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <label for="time">Time Input:</label>
+        <input type="time" id="time" name="time">
+        <br><br>
+        <label for="range">Range Input:</label>
+        <input type="range" id="range" name="range" min="1" max="100" value="50">
+        <br><br>
+        <label for="tel">Telephone Input:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Enter phone number">
+        <br><br>
+        <label for="url">URL Input:</label>
+        <input type="url" id="url" name="url" placeholder="Enter a URL">
+        <br><br>
+        <label for="search">Search Input:</label>
+        <input type="search" id="search" name="search" placeholder="Search...">
+        <br><br>
+        <label for="subscribe">
+            <input type="checkbox" id="subscribe" name="subscribe" checked> Subscribe to newsletter
+        </label>
+        <br><br>
+        <label>Gender:</label>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male"> Male
+        </label>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female"> Female
+        </label>
+        <br><br>
+        <label for="file">File Input:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+        <label for="color">Color Input:</label>
+        <input type="color" id="color" name="color">
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+        <br><br>
+        <label for="submit">Submit Button:</label>
+        <input type="submit" value="Submit">
+        <br><br>
+        <label for="reset">Reset Button:</label>
+        <input type="reset" value="Reset">
+        <br><br>
+    </form>
+</body>
+</html>
